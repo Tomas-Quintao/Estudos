@@ -32,7 +32,7 @@ real quantidade,quantidade2,sub2
          escreva("\nItem:",produto2)
 
          escreva("\nQtde:",quantidade2,"|","Preço Unit:",valor2,"|"," subtotal:R$",sub2)
-         escreva ("\nVALOR TOTAL DA COMPRA: R$:",total)   
+         escreva ("\nVALOR TOTAL DA COMPRA: R$:",total) //qwertqwertqwertqwerty   
 
 
 
