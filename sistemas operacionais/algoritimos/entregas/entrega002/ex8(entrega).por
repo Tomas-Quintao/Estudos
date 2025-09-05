@@ -1,0 +1,14 @@
+programa {
+cadeia objeto
+const cadeia cor = "azul"  
+  funcao inicio() {
+    escreva("dijite o nome de um objeto:")
+    leia(objeto)
+
+     escreva("Um(a) ",objeto," da cor ",cor," seria interessante!")
+
+
+
+    
+  }
+}
