@@ -50,11 +50,13 @@ programa {
     escreva ("\nPeso estimado do Loot: ",pesototal," Oz")
     escreva ("\n==================================================")
     escreva ("\nCusto de suprimentos:",custo_supr," GPs")
-    escreva ("\nLucro/prejuizo Estimado:",preju) 
+    escreva ("\nLucro/prejuizo Estimado:",preju," GPs") 
     escreva ("\n==================================================")
     escreva ("\nmédia de xp por hora:",mediaxp)
     escreva ("\nmédia de gp por hora:",mediagp)
-
+    escreva ("\n--------------------------------------------------")
+    escreva ("\nBom jogo ",nome_jogador,"!!!")
+  
 
 
     
