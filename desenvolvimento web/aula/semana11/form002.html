@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOrm002</title>
+     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Teste de formulario - senha e usuario</h1>
+
+    <form action="cadastro.php" method="POST">
+
+        <div>
+            <label for="idusuario">Usuario</label>
+            <input type="text" name="usuario" id="idusuario" required
+            maxlength="20" placeholder="máximo 20 letras"
+            autocomplete="username">
+        </div>
+
+        <div>
+            <label for="idsenha">Senha</label>
+            <input type="password" name="senha" id="idsenha" required
+            minlength="8" maxlength="10" placeholder="min 8 caracteres" autocomplete="current-password">
+        </div>
+
+        <div>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </div>
+
+
+
+
+    </form>
+
+
+    <center> <a href="ex012.html" rel="prev"><button>Voltar</button></a> </center>
+    
+</body>
+</html>
